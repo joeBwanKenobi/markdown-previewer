@@ -1,0 +1,49 @@
+$background-color: #343a40;
+$text-color: white;
+html, body {
+  background-color: $background-color;
+  color: $text-color;
+}
+#root {
+  padding: 2% 10%;
+}
+
+h1.title {
+  text-align: center;
+  padding-bottom: 3%;
+  font-color: $text-color;
+}
+
+div.box-header {
+  width: 100%;
+  text-align: center;
+  background-color: #0080BD;
+  border-style: double;
+  border-width: 8px;
+  margin: 1%;
+}
+
+textarea#editor {  
+  width: 100%;
+  height: 100%;
+  margin: 1%;
+}
+
+#preview {
+  width: 100%;
+  padding: 0 3%;
+}
+
+pre {
+  padding-left: 5%;
+  color: #e83e8c;
+}
+
+a.source {
+  color: rgb(255, 137, 1);
+}
+
+a.source:hover {
+  color: #0080BD;
+  text-decoration: none;
+}
