@@ -12,7 +12,7 @@ class App extends Component {
         </div>
         <Interface />
         <br/><br/>
-        <p className="text-center"><b><a href="" target="_blank" className="source"><i class="fa fa-gitlab"></i>&nbsp;View Source</a></b></p>
+        <p className="text-center"><b><a href="https://gitlab.jo3.io/joebwankenobi/markdown-previewer" target="_blank"><i class="fa fa-gitlab"></i>&nbsp;View Source</a></b></p>
       </div>
     );
   }

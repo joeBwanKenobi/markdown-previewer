@@ -17,8 +17,8 @@ div.box-header {
   width: 100%;
   text-align: center;
   background-color: #0080BD;
-  border-style: double;
-  border-width: 8px;
+  border-style: solid;
+  border-width: 3px;
   margin: 1%;
 }
 
@@ -38,11 +38,11 @@ pre {
   color: #e83e8c;
 }
 
-a.source {
+a {
   color: #ff8901;
 }
 
-a.source:hover {
+a:hover {
   color: #0080BD;
   text-decoration: none;
 }
